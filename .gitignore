@@ -1,0 +1,23 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+.env/
+*.env
+
+# Model artifacts and scalers (optional - usually large, regenerated files)
+model.pkl
+scaler.pkl
+
+# Data files (optional - if large or sensitive)
+customer_churn_data.*
+
+# System files
+.DS_Store
+Thumbs.db
